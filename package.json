@@ -1,0 +1,125 @@
+{
+    "author": "Kim T. Pham",
+    "dependencies": {},
+    "keywords": [],
+    "name": "gopro",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "GoPro Remote",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "cam_connect_error": 99,
+            "cam_connect_status": 300,
+            "cam_menus": 303,
+            "cam_status": 302,
+            "cam_version": 301,
+            "camera_command_msg": 200,
+            "camera_last_image": 202,
+            "camera_update_msg": 201,
+            "mode": 321,
+            "photo_count": 323,
+            "photo_progress": 329,
+            "photo_remaining": 325,
+            "recording": 327,
+            "video_count": 324,
+            "video_progress": 328,
+            "video_remaining": 326
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/power",
+                    "name": "power",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/nowifi",
+                    "name": "nowifi",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/battery4",
+                    "name": "battery4",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/setup",
+                    "name": "setup",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/battery3",
+                    "name": "battery3",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/battery2",
+                    "name": "battery2",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/battery1",
+                    "name": "battery1",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/battery0",
+                    "name": "battery0",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/burst",
+                    "name": "burst",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/camera",
+                    "name": "camera",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/gopro",
+                    "menuIcon": true,
+                    "name": "gopro",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/timelapse",
+                    "name": "timelapse",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/video",
+                    "name": "videoIcon",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "648140bb-d929-4bf4-b25d-f8950df1b2fe",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
