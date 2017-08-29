@@ -4,9 +4,6 @@
     "keywords": [],
     "name": "gopro",
     "pebble": {
-        "capabilities": [
-            ""
-        ],
         "displayName": "GoPro Remote",
         "enableMultiJS": true,
         "messageKeys": {
